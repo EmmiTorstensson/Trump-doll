@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
+</head> 
+<body>
+
+    <header>
+        <h1>Make trump cute again</h1>
+    </header>
+    <div class="border"></div>
+
+    <div class="btn">
+    <button class="button" type="button" onClick="rndBubble()">He's a talker!</button>
+    </div>
+    <img src="images/bubble1.png" name="canvas" class="bubble-style"/>
+    
+
+
+    <div class="carousel">
+
+        <button class="carousel__button carousel__button--left">
+            <img class="img__button" src="images/left.svg" alt="left">
+        </button>
+
+        <div class="carousel__track-container">
+            <ul class="carousel__track">
+                <li class="carousel__slide current-slide">
+                    <img id="head1" class="carousel__image" src="images/trumphead1.png" alt="slide1">
+                </li>
+                <li class="carousel__slide">
+                    <img id="head2" src="images/trumphead2.png" alt="slide2">
+                </li>
+                <li class="carousel__slide">
+                    <img id="head3" src="images/trumphead3.png" alt="slide3">
+                </li>
+            </ul>
+        </div>
+
+        <button class="carousel__button carousel__button--right">
+            <img class="img__button" src="images/right.svg" alt="right">
+        </button>
+
+    </div>
+
+
+    <div class="carousel2">
+
+        <button class="carousel__button2 carousel__button--left2">
+            <img src="images/left.svg" alt="">
+        </button>
+
+        <div class="carousel__track-container">
+            <ul class="carousel__track2">
+                <li class="carousel__slide current-slide-body">
+                    <img src="images/trump_body1.jpg" class="carousel__image2" id="body1" alt="">
+                </li>
+                <li class="carousel__slide">
+                    <img src="images/trump_bod_baby.png" class="carousel__image2" id="body2" alt="">
+                </li>
+                <li class="carousel__slide">
+                    <img src="images/trump_body3.png" class="carousel__image2" id="body2" alt="">
+                </li>
+            </ul>
+        </div>
+
+        <button class="carousel__button2 carousel__button--right2 ">
+            <img src="images/right.svg" alt="">
+        </button>
+    </div>
+
+
+    
+    <script src="carousel.js"></script>
+</body>
+</html>
