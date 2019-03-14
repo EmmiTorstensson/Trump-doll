@@ -100,7 +100,7 @@ nextButton2.addEventListener('click', e => {
 
 // JS för pratbubbla
 
-// En array med de olika alternaiven 
+// En array med de olika alternativen 
 let bubblearray = ['bubble1.png', 'bubble2.png', 'bubble3.png', 'bubble4.png'];
 
 // funktion som slumpar indexnummer från arrayen och returnerar innehåll 
